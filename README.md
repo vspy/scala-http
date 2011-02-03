@@ -17,6 +17,7 @@ Simple GET request:
     )
 
 onComplete takes three arguments:
+
 * status:Int — HTTP response status
 * headers:Map[String,String] — HTTP response headers
 * stream:java.io.InputStream — Input stream with HTTP response body
